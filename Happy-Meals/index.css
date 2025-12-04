@@ -10,7 +10,7 @@ body {
     width: 350px;
     height: 600px;
     position: relative;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     background-color: white;
 }
@@ -29,8 +29,6 @@ body {
     right: 0;
     background-color: #f7d498; 
     padding: 20px 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 .card-content h1 {
@@ -50,19 +48,19 @@ body {
 }
 
 .book-now-button {
-    background-color: gray;
+    background-color: white;
     color: orange;
     border: none;
     padding: 12px 25px;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 8px;
+    border-radius: 50px;
     width: 100%;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
     transition: background-color 0.3s;
 }
 
 .book-now-button:hover {
-    background-color: #f0f0f0;
+    background-color: grey;
 }
