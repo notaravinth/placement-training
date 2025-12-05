@@ -1,6 +1,4 @@
-const { check } = require("app");
-
-let randomNumber = Math.floor(Math.random() * 100) + 1;
+let randomNumber = Math.floor(Math.random() * 10) + 1;
 
 const guessInput = document.getElementById("guess");
 const submitBtn = document.getElementById("submit");
@@ -21,4 +19,9 @@ function checkGuess() {
     else if (userGuess > randomNumber) {
         alert("Too high!");
     }
+}
+
+function resetGame(){
+    randomNumber = Math.floor(Math.random() * 10) + 1;
+    guessInput.value = '';
 }
