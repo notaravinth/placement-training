@@ -24,4 +24,5 @@ function checkGuess() {
 function resetGame(){
     randomNumber = Math.floor(Math.random() * 10) + 1;
     guessInput.value = '';
+    alert("game has been reset")
 }

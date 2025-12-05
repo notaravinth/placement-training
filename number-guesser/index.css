@@ -1,0 +1,36 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+    text-align: center;
+    margin-top: 20%;
+}
+.guessField{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    font-size: 16px;
+}
+.submitBtn, .resetBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #3387b4;
+    color: white;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+.submitBtn:hover, .resetBtn:hover{
+    background-color: #482590;
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.container p{
+    font-size: 20px;
+}
+
