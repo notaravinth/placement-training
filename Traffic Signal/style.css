@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #eee;
+    font-family: sans-serif;
+}
+
+.light-container {
+    background-color: #6a6a6a;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #555;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #444;
+    border: 1px solid #000;
+    transition: background-color 0.2s;
+}
+
+.red-on {
+    background-color: #ff0000;
+}
+
+.yellow-on {
+    background-color: #ffff00;
+}
+
+.green-on {
+    background-color: #00ff00;
+}
+
+.controls {
+    display: flex;
+    gap: 5px;
+}
+
+.controls button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.1s;
+}
+
+.controls button:hover {
+    background-color: #ddd;
+}
