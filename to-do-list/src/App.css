@@ -1,19 +1,19 @@
 .body{
   align-items: center;
-  margin-top: 25%;
   justify-content: center;
+  display: flex;
 }
 
 .app-container {
   margin-top: 25%;
   text-align: center;
-  max-width: 400px;
-  margin: 50px auto;
+  max-width: 500px;
+  margin: 19% auto;
   font-family: Arial, sans-serif;
   border: 1px solid #ddd;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 h1 {
