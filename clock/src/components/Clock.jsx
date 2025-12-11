@@ -8,10 +8,6 @@ function Clock() {
     const timerID = setInterval(() => {
       setTime(new Date());
     }, 1000);
-
-    return function cleanup() {
-      clearInterval(timerID);
-    };
   }, []);
 
   return (
